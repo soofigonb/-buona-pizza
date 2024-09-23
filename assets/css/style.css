@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body{
+    background: linear-gradient(90deg, hsla(110, 56%, 34%, 1) 14%, hsla(18, 94%, 44%, 1) 69%, hsla(0, 88%, 47%, 1) 100%);
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.card-container{
+    width: 1200px;
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card-body {
+    display: flex;
+    justify-content: space-between; 
+    height: 640px;
+    padding: 50px;
+}
+
+.mejora-pizza {
+    flex: 1;
+    margin-right: 20px; 
+}
+
+.resumen-pedido {
+    flex: 1;
+}
+.mejora {
+    background-color: rgba(227, 225, 225, 0.289);
+    border-radius: 20px;
+    height: 40px;
+    width: 500px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center;
+}
+#titulo1 {
+    font-size: 1.2rem;
+    margin-left: 15px; 
+}
+.resumen{
+    background-color: rgba(227, 225, 225, 0.289);
+    border-radius: 20px;
+    height: 40px;
+    width: 500px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center;
+}
+#negrita{
+    font-weight: 600;
+}
+#titulo2 {
+    font-size: 1.2rem;
+    margin-left: 15px; 
+}
+#ingresa-propina > div {
+    display: flex; 
+    align-items: center;
+    border: 3px rgba(227, 225, 225, 0.289) solid; 
+    border-radius: 20px;
+    height: 47px;
+}
+
+#propina-ingresa {
+    width: 200px; 
+    margin-left: 10px;
+    margin-right: 10px; 
+    border: transparent;
+}
+
+button {
+    padding: 5px 10px; 
+    width: 270px;
+    height: 35px;
+    
+}
+.btn{
+    border-radius: 25px;
+}
+#ingredientes-extras, #propinas, #pizzas {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; 
+}
+#ingredientes-extras p, #propinas p, #pizzas p {
+    margin: 0; 
+}
+#valor-pizza, #valor-extra, #valor-propina {
+    font-weight: 600;
+    margin: 0; 
+}
